@@ -1,0 +1,26 @@
+{
+  "name": "friend-finder",
+  "version": "1.0.0",
+  "description": "Display friend matches based on answers to a questionnaire",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ruigrok/FriendFinder.git"
+  },
+  "author": "Andrew Ruigrok",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ruigrok/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/Ruigrok/FriendFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "bulma": "^0.4.3",
+    "express": "^4.15.3",
+    "nodemon": "^1.11.0"
+  }
+}
