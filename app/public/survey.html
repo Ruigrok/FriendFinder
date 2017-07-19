@@ -30,7 +30,7 @@
                 <div class="field">
                     <label class="label" style="color:#fff">Name (Required)</label>
                     <p class="control has-icons-left">
-                        <input class="input is-primary" type="text" placeholder="Enter your name here">
+                        <input class="input is-primary" id="name" type="text" placeholder="Enter your name here">
                         <span class="icon is-small is-left">
                             <i class="fa fa-user"></i>
                         </span>
@@ -40,7 +40,7 @@
                 <div class="field">
                     <label class="label" style="color:#fff">Photo Image (Required)</label>
                     <p class="control has-icons-left">
-                        <input class="input is-primary" type="text" placeholder="Past a link to a photo of yourself here">
+                        <input class="input is-primary" id="photo" type="text" placeholder="Past a link to a photo of yourself here">
                         <span class="icon is-small is-left">
                             <i class="fa fa-link"></i>
                         </span>
@@ -65,13 +65,13 @@
                         </label>
                         <p class="control">
                             <span class="select">
-                                <select>
+                                <select id="q1" data-q="Question 1">
                                     <option>Select answer</option>
                                     <option>1 (Strongly Disagree)</option>
                                     <option>2</option>
                                     <option>3</option>
                                     <option>4</option>
-                                    <option>1 (Strongly Agree)</option>
+                                    <option>5 (Strongly Agree)</option>
                                 </select>
                             </span>
                         </p>
@@ -91,13 +91,13 @@
                         </label>
                         <p class="control">
                             <span class="select">
-                                <select>
+                                <select id="q2" data-q="Question 2">
                                     <option>Select answer</option>
                                     <option>1 (Strongly Disagree)</option>
                                     <option>2</option>
                                     <option>3</option>
                                     <option>4</option>
-                                    <option>1 (Strongly Agree)</option>
+                                    <option>5 (Strongly Agree)</option>
                                 </select>
                             </span>
                         </p>
@@ -116,13 +116,13 @@
                         </label>
                         <p class="control">
                             <span class="select">
-                                <select>
+                                <select id="q3" data-q="Question 3">
                                     <option>Select answer</option>
                                     <option>1 (Strongly Disagree)</option>
                                     <option>2</option>
                                     <option>3</option>
                                     <option>4</option>
-                                    <option>1 (Strongly Agree)</option>
+                                    <option>5 (Strongly Agree)</option>
                                 </select>
                             </span>
                         </p>
@@ -141,13 +141,13 @@
                         </label>
                         <p class="control">
                             <span class="select">
-                                <select>
+                                <select id="q4" data-q="Question 4">
                                     <option>Select answer</option>
                                     <option>1 (Strongly Disagree)</option>
                                     <option>2</option>
                                     <option>3</option>
                                     <option>4</option>
-                                    <option>1 (Strongly Agree)</option>
+                                    <option>5 (Strongly Agree)</option>
                                 </select>
                             </span>
                         </p>
@@ -166,13 +166,13 @@
                         </label>
                         <p class="control">
                             <span class="select">
-                                <select>
+                                <select id="q5" data-q="Question 5">
                                     <option>Select answer</option>
                                     <option>1 (Strongly Disagree)</option>
                                     <option>2</option>
                                     <option>3</option>
                                     <option>4</option>
-                                    <option>1 (Strongly Agree)</option>
+                                    <option>5 (Strongly Agree)</option>
                                 </select>
                             </span>
                         </p>
@@ -191,13 +191,13 @@
                         </label>
                         <p class="control">
                             <span class="select">
-                                <select>
+                                <select id="q6" data-q="Question 6">
                                     <option>Select answer</option>
                                     <option>1 (Strongly Disagree)</option>
                                     <option>2</option>
                                     <option>3</option>
                                     <option>4</option>
-                                    <option>1 (Strongly Agree)</option>
+                                    <option>5 (Strongly Agree)</option>
                                 </select>
                             </span>
                         </p>
@@ -216,13 +216,13 @@
                         </label>
                         <p class="control">
                             <span class="select">
-                                <select>
+                                <select id="q7" data-q="Question 7">
                                     <option>Select answer</option>
                                     <option>1 (Strongly Disagree)</option>
                                     <option>2</option>
                                     <option>3</option>
                                     <option>4</option>
-                                    <option>1 (Strongly Agree)</option>
+                                    <option>5 (Strongly Agree)</option>
                                 </select>
                             </span>
                         </p>
@@ -241,13 +241,13 @@
                         </label>
                         <p class="control">
                             <span class="select">
-                                <select>
+                                <select id="q8" data-q="Question 8">
                                     <option>Select answer</option>
                                     <option>1 (Strongly Disagree)</option>
                                     <option>2</option>
                                     <option>3</option>
                                     <option>4</option>
-                                    <option>1 (Strongly Agree)</option>
+                                    <option>5 (Strongly Agree)</option>
                                 </select>
                             </span>
                         </p>
@@ -266,13 +266,13 @@
                         </label>
                         <p class="control">
                             <span class="select">
-                                <select>
+                                <select id="q9" data-q="Question 9">
                                     <option>Select answer</option>
                                     <option>1 (Strongly Disagree)</option>
                                     <option>2</option>
                                     <option>3</option>
                                     <option>4</option>
-                                    <option>1 (Strongly Agree)</option>
+                                    <option>5 (Strongly Agree)</option>
                                 </select>
                             </span>
                         </p>
@@ -291,13 +291,13 @@
                         </label>
                         <p class="control">
                             <span class="select">
-                                <select>
+                                <select id="q10" data-q="Question 10">
                                     <option>Select answer</option>
                                     <option>1 (Strongly Disagree)</option>
                                     <option>2</option>
                                     <option>3</option>
                                     <option>4</option>
-                                    <option>1 (Strongly Agree)</option>
+                                    <option>5 (Strongly Agree)</option>
                                 </select>
                             </span>
                         </p>
@@ -310,7 +310,7 @@
     <section class="hero is-primary">
         <div class="hero-body">
             <div class="container has-text-centered">
-                    <a class="button is-info is-medium">
+                <a class="button is-info is-medium" id="submit">
                         <span class="icon">
                             <i class="fa fa-check-circle" aria-hidden="true"></i>
                         </span>
@@ -325,8 +325,8 @@
             <div class="content has-text-centered">
                 <br>
                 <p>
-                    <a href="#">API Friends List </a> |
-                    <a href="#"> GitHub Repo</a>
+                    <a href="/api/friends" target="_blank">API Friends List </a> |
+                    <a href="https://github.com/Ruigrok/FriendFinder" target="_blank"> GitHub Repo</a>
                 </p>
                 <p>
                     <strong>FriendFinder</strong> by Andrew Ruigrok
@@ -335,9 +335,176 @@
         </div>
     </div>
 
+    <div class="modal" id="input-modal">
+        <div class="modal-background"></div>
+        <div class="modal-content">
+
+            <article class="message is-warning">
+                <div class="message-header">
+                    <p>Missing inputs for:</p>
+                    <button class="delete"></button>
+                </div>
+                <div class="message-body">
+                    <!-- populates with unaswered questions on submit -->
+                </div>
+            </article>
+
+        </div>
+        <button class="modal-close is-large"></button>
+    </div>
+
+    <div class="modal" id="results-modal">
+        <div class="modal-background"></div>
+        <div class="modal-content">
+            <article class="message is-primary">
+                <div class="message-header">
+                    <h2><strong>Best Match</strong></h2>
+                    <button class="delete reset"></button>
+                </div>
+                <div class="message-body has-text-centered" id="results-body">
+
+                </div>
+            </article>
+
+        </div>
+        <button class="modal-close is-large reset"></button>
+    </div>
 
 </body>
 
+<script type="text/javascript">
+    var newFriend;
 
+    $('.delete').on('click', function () {
+        $('.modal').removeClass('is-active');
+        $('.modal').empty();
+    });
+
+    $('.modal-close').on('click', function () {
+        $('.modal').removeClass('is-active');
+        $('.modal').empty();
+    });
+
+    $('.reset').on('click', function () {
+        $("#name").val("");
+        $("#photo").val("");
+
+        for (var i = 1; i < 11; i++) {
+            $("#q" + i).removeAttr('selected');
+            $(("#q" + i) + " " + "option:first").attr('selected', 'selected');
+        }
+    });
+
+
+    $("#submit").on("click", function () {
+        var answers = [];
+        var unanswered = [];
+
+        if ($('#name').val() === "") {
+            unanswered.push("Name");
+        }
+
+        if ($('#photo').val() === "") {
+            unanswered.push("Photo");
+        }
+
+        for (var i = 1; i < 11; i++) {
+            var answer = $("#q" + i).val();
+
+            switch (answer) {
+                case "Select answer":
+                    unanswered.push($("#q" + i).data("q"));
+
+                case "1 (Strongly Disagree)":
+                    answer = "1";
+                    answers.push(answer);
+                    break;
+
+                case "5 (Strongly Agree)":
+                    answer = "5";
+                    answers.push(answer);
+                    break;
+
+                default:
+                    answers.push(answer);
+            }
+        }
+
+        if (unanswered.length > 0) {
+            var missing = $("<ul>");
+
+            unanswered.forEach(function (x) {
+                var item = $("<li>");
+                item.text(x);
+                missing.append(item);
+            })
+
+            $(".message-body").html(missing);
+            $("#input-modal").addClass("is-active")
+        }
+
+        unanswered = [];
+
+        if (unanswered.length === 0) {
+            newFriend = {
+                name: $("#name").val().trim(),
+                photo: $("#photo").val().trim(),
+                scores: answers,
+            };
+
+            var results = [];
+            var netScores = [];
+
+            $.get("/api/friends", function (friendsData) {
+                if (friendsData) {
+
+                    var currentScores = newFriend.scores
+
+                    for (var j = 0; j < friendsData.length; j++) {
+                        var result = currentScores.map((a, i) => Math.abs(a - friendsData[j].scores[i]));
+                        results.push(result);
+                    }
+
+                    for (var i = 0; i < results.length; i++) {
+                        var netScore = results[i].reduce((a, b) => a + b);
+                        netScores.push(netScore);
+                    }
+
+                    var lowestScore = Math.min.apply(Math, netScores);
+                    var bestMatch = netScores.indexOf(lowestScore);
+
+                    var matchName = friendsData[bestMatch].name;
+                    var matchImage = friendsData[bestMatch].photo;
+
+                    var match = $("<h2>");
+                    match.addClass("title is-2");
+                    match.html("<strong>" + matchName + "</strong>");
+
+                    var imageDiv = $("<p>");
+                    imageDiv.addClass("image");
+
+                    var image = $("<img>");
+                    image.attr("src", matchImage);
+
+                    imageDiv.append(image);
+
+                    $("#results-body").append(match);
+                    $("#results-body").append(imageDiv);
+                    $("#results-modal").addClass("is-active");
+
+                }
+            });
+
+            $.post("/api/friends", newFriend)
+                .done(function (data) {
+
+                    if (data) {
+
+                    }
+                });
+        }
+    });
+
+</script>
 
 </html>
