@@ -374,18 +374,6 @@
     $('.modal1-reset').on('click', function () {
         $('#input-modal').removeClass('is-active');
     })
-    /*
-        $('.delete').on('click', function () {
-            $('.modal').removeClass('is-active');
-            $('.modal').empty();
-        });
-        
-    
-        $('.modal-close').on('click', function () {
-            $('.modal').removeClass('is-active');
-            $('.modal').empty();
-        });
-        */
 
     $('.reset').on('click', function () {
         $('#results-body').empty();
@@ -395,11 +383,10 @@
 
         for (var i = 1; i < 11; i++) {
             console.log($("#q" + i).val());
-            //$("#q" + i).removeAttr('selected');
-            $(("#q" + i) + " " + "option:first").attr('selected', 'selected');
+            $("#q" + i).val("Select answer")
+            //$(("#q" + i) + " " + "option:first").attr('selected', 'selected');
         }
     });
-
 
     $("#submit").on("click", function () {
         var answers = [];
@@ -449,7 +436,7 @@
 
         } else {
 
-            newFriend = {
+            var newFriend = {
                 name: $("#name").val().trim(),
                 photo: $("#photo").val().trim(),
                 scores: answers,
